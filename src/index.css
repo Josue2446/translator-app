@@ -1,0 +1,196 @@
+* {
+  font-family: arial, sans-serif, Helvetica;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #a8a790,
+    #a8a68f,
+    #a8a68e,
+    #a8a58d,
+    #a8a48c,
+    #a79c88,
+    #a59585,
+    #a18e83,
+    #948180,
+    #82777a,
+    #706d70,
+    #626262
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  resize: none;
+  padding: 1rem;
+  width: 230px !important;
+  height: 200px;
+  border-radius: 0.5rem;
+  outline: none;
+  overflow: auto;
+  font-size: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.app {
+  display: flex;
+  width: 650px;
+  height: 360px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  box-sizing: border-box;
+}
+
+.input,
+.output {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.main-option input {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.output textarea {
+  background-color: #51535c;
+  color: white;
+}
+
+.input textarea {
+  color: black;
+  background-color: white;
+}
+
+.main-option .option svg {
+  position: relative;
+  left: 235px;
+  top: -28px;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #4a576a;
+}
+
+.main-option .option svg:hover {
+  cursor: pointer;
+}
+
+.change-language {
+  padding: 15px;
+}
+
+.change-language svg {
+  fill: #4a576a;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  top: -135px;
+  right: 15px;
+}
+
+.change-language svg:hover {
+  cursor: pointer;
+}
+
+.language-list {
+  width: 100%;
+}
+
+.search-language {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-language input {
+  background: url(https://www.gstatic.com/images/icons/material/system/2x/search_grey600_24dp.png)
+    right 8px center no-repeat;
+  background-size: 24px;
+  padding-left: 16px;
+  padding-right: 40px;
+  width: 90% !important;
+  outline: none;
+}
+
+.search-language .close-show-language svg {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  fill: #5a5a5d;
+}
+
+.option-drop-down-langugages {
+  overflow: auto;
+  height: 250px;
+}
+
+.option-drop-down-langugages ul {
+  height: 1300px;
+  padding: 0;
+  margin: 15px;
+}
+
+.option-drop-down-langugages li {
+  color: black;
+  list-style-type: none;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.option-drop-down-langugages li:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.language-list {
+  display: flex;
+}
+
+.language-list .icon {
+  padding: 8px;
+  width: 11px;
+}
+
+.button {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 6px;
+  border: 1px solid #362812;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
